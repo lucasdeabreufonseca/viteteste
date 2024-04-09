@@ -1,15 +1,16 @@
+import style from './App.module.css'
+import Menu from './components/Menu'
 
-import './App.css'
-
-
-function App() {
+export default function App() {
 
   return (
-    <>
-    <h2>sadfafdasd</h2>
-      <h1>hello world</h1>
-    </>
+    <div className={style['wrap-principal']}>
+      <Menu/>
+      <h1 className={style.firstPageHeading}>
+        Bem Vindo! :D
+      </h1>
+    </div>
   )
 }
 
-export default home
+
