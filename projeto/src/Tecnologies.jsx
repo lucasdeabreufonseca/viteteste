@@ -24,16 +24,16 @@ export const Tecnologies = () => {
                 <button className={style.btnTec} onClick={() => setShow('all')}>All tec´s</button>
                </div>
                 <div className={style['wrap-cards-tec']}>
-                   {show === 'html' && <Card title='HTML' imgSrc={htmlImg} desc='Sou o HTML'/>}
-                   {show === 'css' && <Card title='CSS' imgSrc={cssImg} desc='Sou o CSS'/>}
-                   {show === 'js' && <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='Sou o JAVASCRIPT'/>}
-                   {show === 'react' && <Card title='REACT JS' imgSrc={reactImg} desc='Sou o REACT'/>}
+                   {show === 'html' && <Card title='HTML' imgSrc={htmlImg} desc='HTML'/>}
+                   {show === 'css' && <Card title='CSS' imgSrc={cssImg} desc='CSS'/>}
+                   {show === 'js' && <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='JAVASCRIPT'/>}
+                   {show === 'react' && <Card title='REACT JS' imgSrc={reactImg} desc='REACT'/>}
                    {show === 'all' && 
                    <>
-                   <Card title='HTML' imgSrc={htmlImg} desc='Sou o HTML'/> 
-                   <Card title='CSS' imgSrc={cssImg} desc='Sou o CSS'/>
-                   <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='Sou o JAVASCRIPT'/>
-                   <Card title='REACT JS' imgSrc={reactImg} desc='Sou o REACT'/>
+                   <Card title='HTML' imgSrc={htmlImg} desc='HTML'/> 
+                   <Card title='CSS' imgSrc={cssImg} desc='CSS'/>
+                   <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='JAVASCRIPT'/>
+                   <Card title='REACT JS' imgSrc={reactImg} desc='REACT'/>
                    </>}
                 </div>
             </section>

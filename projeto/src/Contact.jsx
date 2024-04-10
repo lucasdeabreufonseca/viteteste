@@ -11,7 +11,7 @@ import style from "./Contact.module.css"
 
 
 export const Contact = () => {
-    const geoData = ({lat: -25.3718243, lng: -49.2161051})
+    const geoData = ({lat: -25.4355074, lng: -49.3550756})
 
     const defaultPhoneNumber = '5541999999999'
 
@@ -53,7 +53,7 @@ export const Contact = () => {
                     {geoData.lat && geoData.lng &&
                         <Marker position={[geoData.lat, geoData.lng]}>
                         <Popup>
-                        <a target='_blank' href={`https://www.google.com.br/maps/place/Sistema+Fiep+-+Unidade+Centro/@${geoData.lat},${geoData.lng},17z/data=!3m1!4b1!4m6!3m5!1s0x94dce41197a84179:0x142fc7abe5169a05!8m2!3d-25.4249717!4d-49.272306!16s%2Fg%2F1ptznr269?entry=ttu`}>Google maps view</a>
+                        <a target='_blank' href={`https://www.google.com.br/maps/place/Est%C3%A2ncia+Pizzaria+Bar/@${geoData.lat},${geoData.lng},18.75z/data=!4m6!3m5!1s0x94dce1f9fd3a3615:0x6fb6ccacd44fc3dc!8m2!3d-25.4351788!4d-49.3554199!16s%2Fg%2F11bv1sqw67?entry=ttu`}>Google maps view</a>
                         </Popup>
                         </Marker>}
                     </MapContainer>
